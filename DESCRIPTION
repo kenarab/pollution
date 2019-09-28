@@ -1,0 +1,24 @@
+Package: pollution
+Type: Package
+Title: 
+Version: 0.1.0
+Authors@R: c(
+    person("Alejandro", "Baranek",,"abaranek@dc.uba.ar", c("aut","com","cre", "cph"))
+    )
+Maintainer: Alejandro Baranek <abaranek@dc.uba.ar>
+Description: A Package for interactive visualizing pollution information on a 3D model of the earth 
+License: MIT
+sugests: 
+         geojsonlint
+depends: R6,
+         lgr,
+         dplyr,
+         dggridR,
+         webglobe,
+         RCMIP5,
+         colorspace,
+         ggplot2
+collate: 'examples-lib.R'
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
